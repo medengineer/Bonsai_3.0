@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <?define Win64="no"?>
+  <?define ProductDisplayName="Bonsai"?>
+  <?define Product64DisplayName="Bonsai (x64)"?>
+  <?define BonsaiBuildPath="..\Bonsai\bin\Release"?>
+  
+  <Fragment>
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Id="BonsaiExecutable" Guid="*" Win64="$(var.Win64)">
+        <File Id="BonsaiEXE" Name="Bonsai.exe" Source="$(var.BonsaiBuildPath)\Bonsai.exe" KeyPath="yes">
+          <Shortcut Id="startmenuBonsai" Directory="ProgramMenuDir" WorkingDirectory="INSTALLFOLDER" Name="$(var.ProductDisplayName)" Icon="Bonsai.ico" Advertise="yes"/>
+        </File>
+        <ProgId Id='Bonsai.workflow' Description='Bonsai workflow file' Icon='BonsaiWorkflow.ico' Advertise='yes'>
+          <Extension Id='bonsai' ContentType='application/xml'>
+            <Verb Id='open' Command='Open' Argument='"%1"' />
+          </Extension>
+        </ProgId>
+      </Component>
+
+      <Component Id="Bonsai64Executable" Guid="*" Win64="$(var.Win64)">
+        <Condition>INSTALL64</Condition>
+        <File Id="Bonsai64EXE" Name="Bonsai64.exe" Source="$(var.BonsaiBuildPath)\Bonsai64.exe" KeyPath="yes">
+          <Shortcut Id="startmenuBonsai64" Directory="ProgramMenuDir" WorkingDirectory="INSTALLFOLDER" Name="$(var.Product64DisplayName)" Icon="Bonsai.ico" Advertise="yes"/>
+        </File>
+        <ProgId Id='Bonsai64.workflow' Description='Bonsai workflow file' Icon='BonsaiWorkflow.ico' Advertise='yes'>
+          <Extension Id='bonsai' ContentType='application/xml'>
+            <Verb Id='open64' Command='Open' Argument='"%1"' />
+          </Extension>
+        </ProgId>
+      </Component>
+
+      <Component Id='BonsaiInstallDir' Guid='*' Win64="$(var.Win64)">
+        <RegistryValue Root='HKCU' Key='Software\[Manufacturer]\[ProductName]' Name='InstallDir' Type='string' Value='[INSTALLFOLDER]' KeyPath='yes'/>
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RunningStatus" xml:space="preserve">
+    <value>Running</value>
+  </data>
+  <data name="SearchModuleCueBanner" xml:space="preserve">
+    <value>Search Modules (Ctrl+E)</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Bonsai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bonsai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadyStatus" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="StatusBlockedImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vwAADr8BOAVTJAAAAK5JREFUOE9jQAffvn1LAOL9QPwfDYPEEqDKMAFQUgGIz3/at/P/q2jf/09FGFAw
+        SAwkB1IDUgvVBgFQze9fZ8ZgaETHb8pzQIa8RzEEyDkPksCmARuGGnIepjkB5DRsCvFhqHcSQAbsx+Zn
+        QhikB6QXZABWBcRgkF4UA4gFtDOAVAwzgOJApCwaoWnhPDGpEIZREhIIADngpExMasSalEEAagh5mQkZ
+        ACVJyM4MDAD69UvNH5WBiAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="StatusReadyImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vwAADr8BOAVTJAAAANdJREFUOE+dU7kNwzAM1CjZwQtpBA/gwqVX8CKpAggI4FojuHNrwIVahZeQhh7a
+        cXLAFSJ5Rz2UKRFCsERHjAURs1xWg5I3op/mKbb3NjZjkxEx5FCDWpZ9wOK1e3SVsOTwHGCyZia08Eho
+        Ao1s4kVssTWtUNi7PgLLtuwxPo6FgdPOnBJCAEYSgwZaGGTFJbXuQmi/GmjdhapBKjjrDqoGqeisOygG
+        1SWKEDjqnl5i9YyyC+Co+/6MPAv+yhQKs0ECaPEe5SvTqI4ywCb/faYUlPzhOxvzAkO1WA01cJaNAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="StatusCriticalImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wAAADsABataJCQAAANRJREFUOE+1U8ENwjAMzBAMwAiMwAJMAI98kfgzGx86QqbgU5CCeOSHgi/YlZNY
+        SFBx0qmNfXdtWse1SCl54kDMDVHzLOtBzSUxPM6nPG43+bJwFVFDDxpo2fYGm+N1v+uMLW/HA0JiFUKL
+        gAYE43pV2Bp1nUOCmD1eTUTPeyzUIVadt+MRMMieRQiI2KoVLXngRcD0JCvEMgvh7QJAHQJYZvA/AdqM
+        q75vQyRg9kec9xt5FoJMIQTaLNT1apAAWpRRlmn8RHOUAQ757TBpUPOL4+zcCzIffKHxkkn8AAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="StatusRunningImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADBSURBVDhPY0AH3759SwDi/UD8Hw2DxBKgyjABUFIBiM8f
+        vX/0f8G2gv/GM41RMEgMJAdSA1IL1QYBUM3va/bUYGhExx2HOkCGvEcxBMg5D5LApgEbhhpyHqY5AeQ0
+        dEU339z8H7kmEkMchqHeSQAZsB+bn2Fg5pmZGHIgDNID0gsyAKsCZIDLNSC9RBkAA+iuoZ8BhLxAcSBS
+        Fo3QtHCemFQIwygJCQSAHHBSJiY1Yk3KIAA1hLzMhAyAkiRkZwYGAEcIWvs/bCjHAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="AttributionNotices" xml:space="preserve">
+    <value>
+The Bonsai framework includes software from the Reactive Extensions for .NET and the NuGet projects developed at the .NET Foundation (https://dotnetfoundation.org/).
+
+Copyright (c) .NET Foundation and Contributors</value>
+  </data>
+  <data name="ContextMenu_NoneMenuItemLabel" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="BonsaiTitle" xml:space="preserve">
+    <value>Bonsai</value>
+  </data>
+  <data name="CopyToClipboard_Error" xml:space="preserve">
+    <value>There was an error copying the selected elements to the clipboard:
+{0}</value>
+  </data>
+  <data name="Editor_Error_Caption" xml:space="preserve">
+    <value>Interface Error</value>
+  </data>
+  <data name="OpenWorkflow_Error" xml:space="preserve">
+    <value>There was an error opening the Bonsai workflow:
+{0}</value>
+  </data>
+  <data name="OpenWorkflow_Error_Caption" xml:space="preserve">
+    <value>Open Error</value>
+  </data>
+  <data name="PasteFromClipboard_Error" xml:space="preserve">
+    <value>There was an error pasting the selected elements from the clipboard:
+{0}</value>
+  </data>
+  <data name="SaveWorkflow_Error" xml:space="preserve">
+    <value>There was an error saving the Bonsai workflow:
+{0}</value>
+  </data>
+  <data name="SaveElement_Error_Caption" xml:space="preserve">
+    <value>Save Error</value>
+  </data>
+  <data name="UpdateWorkflow_Warning" xml:space="preserve">
+    <value>This workflow file has been created with an older version of Bonsai. Further modifications will be incompatible with previous versions.</value>
+  </data>
+  <data name="UpdateWorkflow_Warning_Caption" xml:space="preserve">
+    <value>Update Workflow</value>
+  </data>
+  <data name="SaveLayout_Error" xml:space="preserve">
+    <value>There was an error saving the visualizer layout:
+{0}</value>
+  </data>
+  <data name="StatusUpdateAvailable" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC41ZYUyZQAAAKdJREFUOE+lkMEN
+        wyAQBCktooV8U4KLyTuklnxSkJ0P300WaZ3jwDaSLY18HLeDTQDQkHPG7f5CuD4LrNnzc6Rp+PCRpFps
+        hUVP8i9+Dzc1PD3eVVD1kEAn2ZAkjYANi8LECvyeKIKUEmKM5V1tOgHxs0ENiw1Y/Byz1S/0ZB6dLNbL
+        UINDy/wpKGTXmlsv0QguowJlSFewx5Dg9BecFuxxKBhBGQDhC/DB5AQ227rCAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="PackageUpdatesAvailable_Notification" xml:space="preserve">
+    <value>Package updates are available</value>
+  </data>
+  <data name="UpdateWorkflow_Error" xml:space="preserve">
+    <value>There was an error while updating the workflow. Please check if there are any missing packages that need to be installed before trying to upgrade again.</value>
+  </data>
+  <data name="Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Bonsai.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateExtensionsFolder_Question" xml:space="preserve">
+    <value>Extensions folder does not exist in the current working directory. Do you want to create it?</value>
+  </data>
+  <data name="CreateExtensionsFolder_Question_Caption" xml:space="preserve">
+    <value>Create Extensions Folder</value>
+  </data>
+  <data name="InstallScriptEditor_Question" xml:space="preserve">
+    <value>Unable to open script editor.
+Do you want to install Visual Studio Code?</value>
+  </data>
+  <data name="InstallScriptEditor_Question_Caption" xml:space="preserve">
+    <value>Install Script Editor</value>
+  </data>
+  <data name="CreateExtensionsWorkflow_Warning" xml:space="preserve">
+    <value>The workflow must be saved before adding new extensions.</value>
+  </data>
+  <data name="CreateExtensionsWorkflow_Warning_Caption" xml:space="preserve">
+    <value>Save Workflow</value>
+  </data>
+  <data name="WorkflowPropertiesDescription" xml:space="preserve">
+    <value>Externalized properties of this workflow can be configured below.</value>
+  </data>
+  <data name="RemoveRecentFile_Question" xml:space="preserve">
+    <value>The file "{0}" does not exist anymore. Do you want to remove the reference to it from the list of recent files?</value>
+  </data>
+  <data name="RemoveRecentFile_Question_Caption" xml:space="preserve">
+    <value>Bonsai</value>
+  </data>
+  <data name="UncompiledScriptExpression_Error" xml:space="preserve">
+    <value>Unable to evaluate uncompiled script expression. Please ensure all script files have been created and reload extensions.</value>
+  </data>
+  <data name="InsertValidation_Error" xml:space="preserve">
+    <value>Connecting the target nodes in the specified order would create a loop in the workflow. Consider inserting the operator as a branch.</value>
+  </data>
+  <data name="ReorderGraphNodes_Error" xml:space="preserve">
+    <value>There was an error while reordering the selected nodes:
+{0}</value>
+  </data>
+</root>

@@ -1,0 +1,8 @@
+/Users/pkulik/Projects/Bonsai_3.0/Bonsai.Configuration/bin/Debug/netstandard2.0/Bonsai.Configuration.deps.json
+/Users/pkulik/Projects/Bonsai_3.0/Bonsai.Configuration/bin/Debug/netstandard2.0/Bonsai.Configuration.dll
+/Users/pkulik/Projects/Bonsai_3.0/Bonsai.Configuration/bin/Debug/netstandard2.0/Bonsai.Configuration.pdb
+/Users/pkulik/Projects/Bonsai_3.0/Bonsai.Configuration/obj/Debug/netstandard2.0/Bonsai.Configuration.csprojAssemblyReference.cache
+/Users/pkulik/Projects/Bonsai_3.0/Bonsai.Configuration/obj/Debug/netstandard2.0/Bonsai.Configuration.AssemblyInfoInputs.cache
+/Users/pkulik/Projects/Bonsai_3.0/Bonsai.Configuration/obj/Debug/netstandard2.0/Bonsai.Configuration.AssemblyInfo.cs
+/Users/pkulik/Projects/Bonsai_3.0/Bonsai.Configuration/obj/Debug/netstandard2.0/Bonsai.Configuration.dll
+/Users/pkulik/Projects/Bonsai_3.0/Bonsai.Configuration/obj/Debug/netstandard2.0/Bonsai.Configuration.pdb

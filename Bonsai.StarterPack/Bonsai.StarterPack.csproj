@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Title>Bonsai - Starter Pack</Title>
+    <Description>The Bonsai Starter Pack includes everything you need to build your own data processing workflows.</Description>
+    <PackageTags>Bonsai Rx Starter Pack</PackageTags>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Features>strict</Features>
+    <Version>3.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bonsai.Arduino\Bonsai.Arduino.csproj" />
+    <ProjectReference Include="..\Bonsai.Audio\Bonsai.Audio.csproj" />
+    <ProjectReference Include="..\Bonsai.Dsp.Design\Bonsai.Dsp.Design.csproj" />
+    <ProjectReference Include="..\Bonsai.Osc\Bonsai.Osc.csproj" />
+    <ProjectReference Include="..\Bonsai.Scripting\Bonsai.Scripting.csproj" />
+    <ProjectReference Include="..\Bonsai.Vision.Design\Bonsai.Vision.Design.csproj" />
+    <ProjectReference Include="..\Bonsai.Windows.Input\Bonsai.Windows.Input.csproj" />
+  </ItemGroup>
+</Project>

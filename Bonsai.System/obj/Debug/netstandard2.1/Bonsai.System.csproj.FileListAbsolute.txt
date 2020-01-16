@@ -1,0 +1,11 @@
+/Users/pkulik/Projects/AllenInstitute/Bonsai_3.0/Bonsai.System/bin/Debug/netstandard2.1/Bonsai.System.deps.json
+/Users/pkulik/Projects/AllenInstitute/Bonsai_3.0/Bonsai.System/bin/Debug/netstandard2.1/Bonsai.System.dll
+/Users/pkulik/Projects/AllenInstitute/Bonsai_3.0/Bonsai.System/bin/Debug/netstandard2.1/Bonsai.System.pdb
+/Users/pkulik/Projects/AllenInstitute/Bonsai_3.0/Bonsai.System/bin/Debug/netstandard2.1/Bonsai.Core.dll
+/Users/pkulik/Projects/AllenInstitute/Bonsai_3.0/Bonsai.System/bin/Debug/netstandard2.1/Bonsai.Core.pdb
+/Users/pkulik/Projects/AllenInstitute/Bonsai_3.0/Bonsai.System/obj/Debug/netstandard2.1/Bonsai.System.csprojAssemblyReference.cache
+/Users/pkulik/Projects/AllenInstitute/Bonsai_3.0/Bonsai.System/obj/Debug/netstandard2.1/Bonsai.System.AssemblyInfoInputs.cache
+/Users/pkulik/Projects/AllenInstitute/Bonsai_3.0/Bonsai.System/obj/Debug/netstandard2.1/Bonsai.System.AssemblyInfo.cs
+/Users/pkulik/Projects/AllenInstitute/Bonsai_3.0/Bonsai.System/obj/Debug/netstandard2.1/Bonsai.System.csproj.CopyComplete
+/Users/pkulik/Projects/AllenInstitute/Bonsai_3.0/Bonsai.System/obj/Debug/netstandard2.1/Bonsai.System.dll
+/Users/pkulik/Projects/AllenInstitute/Bonsai_3.0/Bonsai.System/obj/Debug/netstandard2.1/Bonsai.System.pdb

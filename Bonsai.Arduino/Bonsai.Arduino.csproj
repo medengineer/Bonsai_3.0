@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Title>Bonsai - Arduino Library</Title>
+    <Description>Bonsai Arduino Library containing communication infrastructure to probe and control the state of Arduino microcontrollers.</Description>
+    <PackageTags>Bonsai Rx Arduino</PackageTags>
+    <Product>Bonsai.Arduino</Product>
+    <RootNamespace>Bonsai.Arduino</RootNamespace>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Features>strict</Features>
+    <Version>3.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bonsai.System\Bonsai.System.csproj" />
+  </ItemGroup>
+</Project>
